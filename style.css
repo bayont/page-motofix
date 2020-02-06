@@ -1,0 +1,267 @@
+:root {
+    --main-accent: #1fa1f5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+.item:hover > a {
+    color: var(--main-accent);
+}
+.item {
+    
+    cursor: pointer;
+    user-select: none;
+    color: #eee !important;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+    transition: color .4s;
+}
+.slider {
+
+    width: 100%;
+    height: 100%;
+    
+}
+.slider {
+    background-image: url('images/bg1.png');
+
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height: 100vh;
+}
+
+.sub-menu, .motofix {
+    display: inline-block;
+    font-size: 26px;
+}
+.sub-menu {
+    float: right;
+}
+.motofix {
+    padding: 15px;
+    user-select: none;
+}
+.logo {
+    transform: scale(0.8);
+}
+.sub-menu > .item {
+    display: inline-block;
+    padding: 15px;
+}
+.center {
+    justify-content: center;
+}
+
+.art {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.thick {
+    font-weight: 700;
+  
+}
+
+.thin {
+    font-weight: 300;
+    font-size: 23px;
+}
+.caption {
+    padding: 15px;
+    text-shadow: 1px 1px #333;
+}
+.butt-con {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.butt {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 25px;
+    height: 40px;
+    top: 0;
+    background-color: var(--main-accent);
+    transition: background-color .5s ease-in-out;
+    border: 2px solid var(--main-accent);
+
+}
+.button-container {
+    position: relative;
+    
+    
+}
+.butt {
+    cursor: pointer;
+}
+.cap {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+
+}
+
+.butt-con:hover .butt  {
+    background-color: #eee;
+    border: 2px solid var(--main-accent);
+}
+
+.butt-con:hover  .cap {
+    color: var(--main-accent);
+}
+.butt-con {
+    cursor: pointer;
+}
+
+/* 2nd site */
+
+.main:nth-child(2) {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    background-color: rgb(250, 250, 250);
+    color: #333;
+    text-align: center;
+}
+
+.tile-ico {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0 20px;
+}
+.tile {
+    font-size: 21px;
+    padding: 50px 0 50px;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+@media (min-width: 600px) {
+    .main:nth-child(2) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        background-color: rgb(250, 250, 250);
+        color: #333;
+        text-align: center;
+    }
+    
+.tile:nth-child(even) {
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.tile:nth-child(odd) {
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: end;
+}
+
+    }
+
+.description {
+    grid-column-start: 1;
+    grid-column-end: end;
+    width: 100%;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 26px;
+}
+.desc {
+    font-weight: 300;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.question {
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.capt {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-slider {
+    width: auto;
+    
+}
+
+.photo {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+@media (min-width: 800px) {
+    .photo {
+    height: 80vh;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+}
+@media (max-height: 500px) {
+    .photo {
+    height: 80vh;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+}
+.arrow {
+    position: relative;
+    font-size: 116px;
+    color: #333;
+    right: 0;
+    top: 30vh;
+    width: fit-content;
+    float: right;
+    z-index: 10000;
+    user-select: none;
+    height: 100%;
+    padding-right: 20px;
+    
+    cursor: pointer;
+}
+.arrow:first-child {
+    left: 0;
+
+        height: 100%;
+    padding-right: 0;
+    padding-left: 20px;
+    float: left;
+    z-index: 10000;
+}
+
+.header {
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+}
