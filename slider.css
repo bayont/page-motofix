@@ -111,7 +111,7 @@ button:focus {outline:0;}
    
 }
 .slider .dotsContainer > .dot:hover {
-    background-color: #fff;
+    background-color: rgb(233, 208, 64);
     transform: scale(1.1);
 }
 .arrow path {
