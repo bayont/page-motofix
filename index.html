@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <title>MotoFix</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <script src="slider.js"></script>
-    <link rel="stylesheet" href="slider.css">
+    <script src="js/slider.js"></script>
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
                 <div class="motofix">motofix.pl</div>
                 <div class="sub-menu">
                     <div class="item"> <a href="#Location"> Lokalizacja </a></div>
-                    <div class="item"> <a href="#Prices"> Cennik </a></div>
+                    <div class="item"> <a href="#Social"> Social Media </a></div>
                     <div class="item"> <a href="#Contact"> Kontakt </a></div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             </div>
         </div>
     </div>
-    <div class="main">
+    <div class="main" id="about">
         <div class="description">
             <div class="question">Dlaczego MotoFix?</div>
             <div class="desc">Jesteśmy na polskim rynku od 2005 roku. Od tego czasu naprawiliśmy: <span class="thick">2845</span>&nbsp;motocykli oraz dokonaliśmy: <span class="thick">312</span>&nbsp;niestandardowych projektów maszyn.</div>
@@ -74,7 +74,7 @@
 
     </div>
     <div class="main">
-        <div class="header">Nasze portfolio.</div>
+        <header>Nasze portfolio.</header>
         <svg xmlns="http://www.w3.org/2000/svg" class="svg-dis arrow" viewBox="0 0 31.49 31.49"><path d="M21.2 5a1.11 1.11 0 00-1.58 0 1.12 1.12 0 000 1.58l8.04 8.04H1.11c-.62 0-1.11.5-1.11 1.12 0 .62.5 1.12 1.11 1.12h26.55l-8.04 8.04a1.14 1.14 0 000 1.58c.44.45 1.16.45 1.58 0l9.96-9.95a1.1 1.1 0 000-1.57L21.2 5.01z" fill="#1e201d"/></svg>
     <svg xmlns="http://www.w3.org/2000/svg" class="svg-dis arrow left" viewBox="0 0 31.49 31.49"><path d="M21.2 5a1.11 1.11 0 00-1.58 0 1.12 1.12 0 000 1.58l8.04 8.04H1.11c-.62 0-1.11.5-1.11 1.12 0 .62.5 1.12 1.11 1.12h26.55l-8.04 8.04a1.14 1.14 0 000 1.58c.44.45 1.16.45 1.58 0l9.96-9.95a1.1 1.1 0 000-1.57L21.2 5.01z" fill="#1e201d"/></svg>
     <div class="slider">
@@ -90,7 +90,51 @@
         </article>
     </div>
     </div>
-    <script src="script.js"></script>
+    <div class="main" id="Location">
+    <div class="grid-container">
+
+        <div class="location-header">
+            <div class="loc-img">
+                <img src="images/ikonka-google-maps.png" alt="">
+            </div>
+            <div class="title">Lokalizacja</div>
+        </div>
+        <div class="item-box">
+            <div class="location-box">
+                <iframe width="600" height="450" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?q=Paw%C5%82a%20z%20%C5%81%C4%99czycy%205%2C%20Bydgoszcz%2C%20Polska&key=AIzaSyD5K_I20qv2ljDyyktGPWdofi977Rb4I1U" allowfullscreen></iframe>
+        </div>
+    </div>
+        <div class="item-box">
+            <div class="contact-box" id="Contact">
+            <strong>
+                <div class="adres">
+                    <div class="nazwa">MotoFix sp. z.o.o</div>
+                    <div class="ulica">ul. Pawła z Łęczycy 5</div>
+                    <div class="miasto">82-114 Bydgoszcz</div>
+                    <div class="title-contact">Kontakt</div>
+                </strong>   
+                    <div class="link">serwis@motofix.pl</div>
+                    <div class="link">bok@motofix.pl</div>
+                    <div class="link">biznes@motofix.pl</div>
+                    <div class="telefon">+48 551 221 333</div>
+                    <div class="telefon">+48 662 194 212</div>
+                </div>
+             
+            </div>
+    </div>
+</div>
+<div class="main" id="Socials">
+    <div class="title no-shadow">Nasze social media.</div>
+    <div class="socials-grid" id="Social">
+        <div class="social-item"><img src="images/yt.png" alt="YouTube"></div>
+        <div class="social-item"><img src="images/twitter.png" alt="Twitter"></div>
+        <div class="social-item"><img src="images/fb.png" alt="Facebook"></div>
+        <div class="social-item"><img src="images/insta.png" alt="Instagram"></div>
+    </div>
+</div>
+<footer>Made with <img style="transform: translateY(calc(50% - 10px));max-width: 28px;" src="images/heart.png" alt="Love"> by Fabian Fetter &copy; 2020</footer>
+    <script src="js/script.js"></script>
    
 </body>
 
