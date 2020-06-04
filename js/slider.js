@@ -24,8 +24,9 @@ class Slider {
         this.generateSlider();
         this.createPrevNext();
         this.createDots();
-        this.carousel();
+        
         this.chooseSlide(this.currentSlide);
+        
         
     }
 
@@ -122,9 +123,6 @@ class Slider {
             this.dots.push(dot);
         }
         this.slider.appendChild(dotsContainer);
-    }
-    carousel() {
-        setInterval(this.nextSlide, 5000);
     }
 
 }
