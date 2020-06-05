@@ -425,6 +425,7 @@ header {
 
 }
 
+
 .title {
     display: inline-block;
 }
@@ -432,6 +433,8 @@ header {
 .location-box iframe {
     width: 100%;
     border-radius: 25px;
+   border: 0;
+   height: 450px;
 }
 
 @media (min-width: 600px) {
@@ -503,6 +506,8 @@ header {
 
 #Socials .title {
     color: #333;
+    width: 100%;
+    text-align: center;
 }
 
 .no-shadow {
@@ -515,6 +520,7 @@ header {
     grid-row-gap: 20px;
     display: grid;
     grid-template-columns: 100%;
+    text-align: center;
 }
 
 .social-item {
@@ -562,6 +568,7 @@ footer {
     letter-spacing: 5px;
     background-color: rgb(58, 58, 88);
     color: #eee;
+    text-align: center;
 }
 
 
