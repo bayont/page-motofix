@@ -437,6 +437,9 @@ header {
    height: 450px;
 }
 
+.adres {
+    font-weight: 600;
+}
 @media (min-width: 600px) {
     #Location>.grid-container {
         display: grid;
