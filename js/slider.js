@@ -41,7 +41,7 @@ class Slider {
         let i = 1;
         while(this.slides.length) {
             this.slides[0].classList.add("slide");
-            this.slides[0].style.backgroundImage = `url('${this.slides[0].attributes.data.textContent}')`;
+            this.slides[0].style.backgroundImage = `url('${this.slides[0].attributes.itemref.textContent}')`;
             slidesContainer.appendChild(this.slides[0]);
             i++;
         }
