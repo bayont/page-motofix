@@ -35,7 +35,7 @@ a {
 }
 
 .poster {
-    background-image: url('../images/bg1.png');
+    background-image: url('../images/bg1.jpg');
 
 
 
@@ -373,7 +373,7 @@ header {
 
 #Location {
 
-    background-image: url(../images/garage.png);
+    background-image: url(../images/garage.jpg);
 
     padding-top: 10%;
     background-position: center center;
