@@ -131,13 +131,14 @@ a {
 .hamburger-active .ham-inner::after {
     top: 0px;
 }
+
 /* < Hamburger */
 
 .menu-list>.item {
     display: block;
-    
-    
-margin: 20px;
+
+
+    margin: 20px;
 
 }
 
@@ -148,14 +149,17 @@ margin: 20px;
     opacity: 0;
     transition: all .5s ease-in-out;
 }
+
 .menu-list {
     font-size: 1.5em;
 }
+
 .menu-active {
     padding: 10px 0 10px 0;
     display: block;
     opacity: 1;
 }
+
 .menu-active .item {
     height: auto;
     display: block;
@@ -166,17 +170,21 @@ margin: 20px;
     .sub-menu>.item {
         display: inline-block;
     }
+
     .menu-list {
         display: none;
     }
+
     .menu-list>.item {
         display: none;
         height: 0vh;
     }
+
     .hamburger {
         display: none !important;
     }
 }
+
 .center {
     justify-content: center;
 }
@@ -212,7 +220,7 @@ margin: 20px;
     width: 160px;
     margin-left: auto;
     margin-right: auto;
-   
+
     position: relative;
     border-radius: 25px;
     height: 40px;
@@ -433,13 +441,14 @@ header {
 .location-box iframe {
     width: 100%;
     border-radius: 25px;
-   border: 0;
-   height: 450px;
+    border: 0;
+    height: 450px;
 }
 
 .adres {
     font-weight: 600;
 }
+
 @media (min-width: 600px) {
     #Location>.grid-container {
         display: grid;
@@ -582,26 +591,26 @@ footer {
     margin: 0;
     padding: 20px;
     left: 20px;
-    background: #333; 
-   
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-      
-    background: #333; 
+    background: #333;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+    background: #333;
     width: 50%;
     border-radius: 50px;
-  }
+}
 
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #bbb; 
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #bbb;
     border-radius: 50px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
